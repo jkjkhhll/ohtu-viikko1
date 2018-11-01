@@ -20,6 +20,7 @@ public class VarastoTest {
         varasto = new Varasto(10);
     }
 
+
     @Test
     public void konstruktoriLuoTyhjanVaraston() {
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
