@@ -14,10 +14,11 @@ public class VarastoTest {
 
     Varasto varasto;
     double vertailuTarkkuus = 0.0001;
+    static final int TESTIVARASTON_KOKO = 10;
 
     @Before
     public void setUp() {
-        varasto = new Varasto(10);
+        varasto = new Varasto(TESTIVARASTON_KOKO);
     }
 
 
