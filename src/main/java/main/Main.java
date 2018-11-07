@@ -18,7 +18,7 @@ public class Main {
         System.out.println("getTilavuus    = " + olutta.getTilavuus());
         System.out.println("paljonkoMahtuu = " + olutta.paljonkoMahtuu());
 
-        System.out.println("Mehusetterit:");
+            System.out.println("Mehusetterit:");
         System.out.println("Lisätään 50.7");
         mehua.lisaaVarastoon(50.7);
         System.out.println("Mehuvarasto: " + mehua);
@@ -56,5 +56,19 @@ public class Main {
         saatiin = mehua.otaVarastosta(-32.9);
         System.out.println("saatiin " + saatiin);
         System.out.println("Mehuvarasto: " + mehua);
+
+        if (true) {
+            if (true) {
+                if (true) {
+                    System.out.println("True");
+                }
+            }
+        }
+
+        for (int i = 1; i < 10; i++) {
+            for (int k = 1; k < 10; k++) {
+                System.out.println(".");
+            }
+        }
     }
 }
